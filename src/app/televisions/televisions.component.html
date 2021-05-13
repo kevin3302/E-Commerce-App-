@@ -1,0 +1,8 @@
+<div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3 mb-5">
+  <div class="col" *ngFor = "let televisionObj of televisionsArray">
+      <!-- child selector to send the data -->
+      <app-productdetails [productsObj] = televisionObj></app-productdetails>
+  </div>
+</div>
+
+

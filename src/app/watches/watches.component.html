@@ -1,0 +1,10 @@
+<div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3 mb-5">
+    <div class="col" *ngFor = "let watchObj of watchesArray">
+        <!-- child selector to send the data -->
+        <app-productdetails [productsObj] = watchObj></app-productdetails>
+    </div>
+  </div>
+  
+  
+  
+  

@@ -1,7 +1,16 @@
-<div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3 mb-5">
-    <div class="col" *ngFor = "let prObj of productsArray">
-        <!-- child selector to send the data -->
-        <app-productdetails [productsObj] = prObj></app-productdetails>
-    </div>
-</div>
+<ul class="nav nav-pills d-flex justify-content-evenly">
+    <li class="nav-item">
+      <a class="nav-link border bg-primary text-white" routerLink="mobiles" routerLinkActive="active">Mobiles</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link border bg-primary text-white" routerLink="watches" routerLinkActive="active">Watches</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link border bg-primary text-white" routerLink="televisions" routerLinkActive="active">Televisions</a>
+    </li>
 
+  </ul>
+
+<div class="continer-fluid">
+    <router-outlet></router-outlet>
+</div>
