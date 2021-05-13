@@ -4,11 +4,11 @@ import { products } from './models/products.model';
 @Injectable({
   providedIn: 'root'
 })
-export class MobileserviceService {
+export class MobileService {
 
   constructor() { }
 
-  private mobilesArray : products[]= [
+  private mobilesList : products[]= [
 
     {
       productTitle:"Galaxy M51",
@@ -48,5 +48,8 @@ export class MobileserviceService {
 
   ];
 
+  getmobiledetais():products[]{
+    return this.mobilesList;
+  }
 
 }
