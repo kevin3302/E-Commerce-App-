@@ -1,0 +1,51 @@
+<h1 class="mb-2">Colors Data</h1>
+<table class="table text-center">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Year</th>
+            <th>Color</th>
+            <th>Pantone_Value</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let colorObj of mycolors.data">
+            <td>{{colorObj.id}}</td>
+            <td>{{colorObj.name}}</td>
+            <td>{{colorObj.year}}</td>
+            <td>{{colorObj.color}}</td>
+            <td>{{colorObj.pantone_value}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<h1 class="mt-5 mb-2">Users Data</h1>
+<table class="table text-center">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>City</th>
+            <th>Phone</th>
+            <th>Website</th>
+            <th>Company Name</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let userObj of Users">
+            <td>{{userObj.id}}</td>
+            <td>{{userObj.name}}</td>
+            <td>{{userObj.username}}</td>
+            <td>{{userObj.email}}</td>
+            <td>{{userObj.address.city}}</td>
+            <td>{{userObj.phone}}</td>
+            <td>{{userObj.website}}</td>
+            <td>{{userObj.company.name}}</td>
+        </tr>
+    </tbody>
+</table>
