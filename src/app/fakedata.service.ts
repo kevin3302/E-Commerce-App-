@@ -16,6 +16,16 @@ export class FakedataService {
   }
 
   getUser():Observable<any>{
-    return this.hc.get<any>('https://jsonplaceholder.typicode.com/users')
+    return this.hc.get<any>('https://jsonplaceholder.typicode.com/users');
+  }
+
+  // from db.json
+  getUsers():Observable<any>{
+    return this.hc.get<any>('http://localhost:3000/users');
+  }
+
+  // from db.json
+  getUsersByID(id):Observable<any>{
+    return this.hc.get<any>('http://localhost:3000/users/'+id);
   }
 }

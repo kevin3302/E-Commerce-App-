@@ -1,0 +1,13 @@
+<h1 class="text-center"><strong>ID : </strong>{{users.id}}</h1>
+<div class="card d-block mx-auto" style="max-width: 22rem;">
+    <img src={{users.profilePic}} class="card-img-top" alt="...">
+    <div class="card-body" style = "font-family: 'Merriweather', serif;">
+      <h3 class="card-title text-center fs-bold">{{users.name}}</h3>
+      <p class="card-text"><strong>Email ID : </strong>{{users.email}}<br>
+        <strong>Street : </strong>{{users.address.street}}<br>
+        <strong>City : </strong>{{users.address.city}}<br>
+        <strong>Profession : </strong>{{users.profession}}<br>
+        <strong>Phone : </strong>{{users.phone}}</p>
+      <a href="#" class="btn btn-primary d-block mx-auto w-100">Click Here for more Details..</a>
+    </div>
+</div>

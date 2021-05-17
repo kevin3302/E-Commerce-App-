@@ -1,0 +1,14 @@
+<table class="table text-center">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let userObj of  users">
+            <td><button class="btn btn-warning" (click) = onSelectID(userObj.id)>{{userObj.id}}</button></td>
+            <td>{{userObj.email}}</td>
+        </tr>
+    </tbody>
+</table>

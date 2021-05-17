@@ -15,6 +15,8 @@ import { WatchesComponent } from './watches/watches.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { HomeComponent } from './home/home.component';
 import { TestComponent } from './test/test.component';
+import { UsersComponent } from './users/users.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { TestComponent } from './test/test.component';
     WatchesComponent,
     PagenotfoundComponent,
     HomeComponent,
-    TestComponent
+    TestComponent,
+    UsersComponent,
+    UserDetailsComponent
   ],
   imports: [
     BrowserModule,

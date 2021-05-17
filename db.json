@@ -1,0 +1,184 @@
+{
+    "users" : [
+    {
+        "id":1,
+        "email":"george.bluth@reqres.in",
+        "name":"George Bluth",
+        "profilePic":"https://reqres.in/img/faces/1-image.jpg",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+              "lat": "-37.3159",
+              "lng": "81.1496"
+            }
+        },
+        "profession" : " ",
+        "phone": "1-770-736-8031 x56442"
+    },
+    {
+        "id":2,
+        "email":"janet.weaver@reqres.in",
+        "name":"Janet Weaver",
+        "profilePic":"https://reqres.in/img/faces/2-image.jpg",
+        "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+              "lat": "-43.9509",
+              "lng": "-34.4618"
+            }
+        },
+        "profession" : " ",
+        "phone": "010-692-6593 x09125"
+    },
+    {
+        "id":3,
+        "email":"emma.wong@reqres.in",
+        "name":"Emma Wong",
+        "profilePic":"https://reqres.in/img/faces/3-image.jpg",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+              "lat": "-68.6102",
+              "lng": "-47.0653"
+            }
+        },
+        "profession" : " ",
+        "phone": "1-463-123-4447"
+    },
+    {
+        "id":4,
+        "email":"eve.holt@reqres.in",
+        "name":"Eve Holt",
+        "profilePic":"https://reqres.in/img/faces/4-image.jpg",
+        "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257",
+            "geo": {
+              "lat": "29.4572",
+              "lng": "-164.2990"
+            }
+        },
+        "profession" : " ",
+        "phone": "493-170-9623 x156"
+    },
+    {
+        "id":5,
+        "email":"charles.morris@reqres.in",
+        "name":"Charles Morris",
+        "profilePic":"https://reqres.in/img/faces/5-image.jpg",
+        "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+              "lat": "-31.8129",
+              "lng": "62.5342"
+            }
+        },
+        "profession" : " ",
+        "phone": "(254)954-1289"
+    },
+    {
+        "id":6,
+        "email":"tracey.ramos@reqres.in",
+        "name":"Tracey Ramos",
+        "profilePic":"https://reqres.in/img/faces/6-image.jpg",
+        "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": "23505-1337",
+            "geo": {
+              "lat": "-71.4197",
+              "lng": "71.7478"
+            }
+        },
+        "profession" : " ",
+        "phone": "1-477-935-8478 x6430"
+    },
+    {
+        "id": 7,
+        "email": "michael.lawson@reqres.in",
+        "name": "Michael Lawson",
+        "profilePic": "https://reqres.in/img/faces/7-image.jpg",
+        "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": "58804-1099",
+            "geo": {
+              "lat": "24.8918",
+              "lng": "21.8984"
+            }
+        },
+        "profession" : " ",
+        "phone": "210.067.6132"
+    },
+    {
+        "id": 8,
+        "email": "lindsay.ferguson@reqres.in",
+        "name": "Lindsay Ferguson",
+        "profilePic": "https://reqres.in/img/faces/8-image.jpg",
+        "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": "45169",
+            "geo": {
+              "lat": "-14.3990",
+              "lng": "-120.7677"
+            }
+        },
+        "profession" : " ",
+        "phone": "586.493.6943 x140"
+    },
+    {
+        "id": 9,
+        "email": "tobias.funke@reqres.in",
+        "name": "Tobias Funke",
+        "profilePic": "https://reqres.in/img/faces/9-image.jpg",
+        "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109",
+            "geo": {
+              "lat": "24.6463",
+              "lng": "-168.8889"
+            }
+        },
+        "profession" : " ",
+        "phone": "(775)976-6794 x41206"
+    },
+    {
+        "id": 10,
+        "email": "byron.fields@reqres.in",
+        "name": "Byron Fields",
+        "profilePic": "https://reqres.in/img/faces/10-image.jpg",
+        "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+              "lat": "-38.2386",
+              "lng": "57.2232"
+            }
+        },
+        "profession" : " ",
+        "phone": "024-648-3804"
+    }
+    ]
+}
